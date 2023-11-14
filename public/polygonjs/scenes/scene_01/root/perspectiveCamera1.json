@@ -1,0 +1,14 @@
+{
+	"type": "perspectiveCamera",
+	"nodes": {
+		"perspectiveCamera1": {
+			"type": "perspectiveCamera",
+			"flags": {
+				"display": true
+			}
+		}
+	},
+	"flags": {
+		"display": true
+	}
+}

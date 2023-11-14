@@ -1,0 +1,45 @@
+{
+	"nodes": {
+		"COP": {
+			"pos": [-300, -50],
+			"selection": ["image1"],
+			"nodes": {
+				"envMap": {
+					"pos": [50, 250]
+				},
+				"imageEnv": {
+					"pos": [50, 100]
+				},
+				"image1": {
+					"pos": [-200, 100]
+				}
+			}
+		},
+		"lights": {
+			"pos": [-50, -350],
+			"selection": ["hemisphereLight1"],
+			"nodes": {
+				"hemisphereLight1": {
+					"pos": [50, -50]
+				},
+				"spotLight1": {
+					"pos": [300, -50]
+				},
+				"polarTransform1": {
+					"pos": [300, 150]
+				},
+				"merge1": {
+					"pos": [100, 300]
+				}
+			}
+		},
+		"perspectiveCamera1": {
+			"pos": [-250, -300],
+			"nodes": {
+				"perspectiveCamera1": {
+					"pos": [-100, -50]
+				}
+			}
+		}
+	}
+}
